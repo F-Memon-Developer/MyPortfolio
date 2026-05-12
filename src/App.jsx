@@ -99,7 +99,7 @@ export default function PortfolioTemplate() {
         <div className="absolute top-20 left-20 w-72 h-72 bg-pink-500/20 rounded-full blur-3xl"></div>
         <div className="absolute bottom-20 right-20 w-72 h-72 bg-black-500/20 rounded-full blur-3xl"></div>
 
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10 text-center md:text-left">
+        <div className="max-w-8xl mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10 text-center md:text-left">
           <div>
             <p className="text-pink-400 mb-4">Full Stack Web Developer</p>
 
@@ -112,7 +112,7 @@ export default function PortfolioTemplate() {
 
             <p className="text-gray-300 text-lg leading-relaxed mb-8 max-w-xl">
               I'm a passionate web developer currently learning MERN stack and building modern
-              responsive websites with React and Tailwind CSS.
+              responsive websites with new technologies.
             </p>
 
             <div className="flex gap-4 flex-wrap mx-9">
@@ -157,7 +157,7 @@ export default function PortfolioTemplate() {
 
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-white/5 border border-white/10 rounded-3xl p-6 text-center">
-                <h3 className="text-3xl font-bold text-pink-400">10+</h3>
+                <h3 className="text-3xl font-bold text-pink-400">20+</h3>
                 <p className="text-gray-300 mt-2">Projects</p>
               </div>
 
@@ -285,10 +285,15 @@ export default function PortfolioTemplate() {
             Have a project idea or freelance opportunity? Let's work together.
           </p>
 
-          <div className="bg-white/5 border border-white/10 rounded-3xl p-10 backdrop-blur-md">
+          <form
+            action="https://formsubmit.co/memon2572006f@gmail.com"
+            method="POST"
+            className="bg-white/5 border border-white/10 rounded-3xl p-10 backdrop-blur-md"
+          >
             <div className="grid md:grid-cols-2 gap-6 mb-6">
               <input
                 type="text"
+                name="name"
                 placeholder="Your Name"
                 className="bg-black/30 border border-white/10 rounded-2xl px-5 py-4 outline-none
                 focus:border-purple-500
@@ -297,6 +302,7 @@ export default function PortfolioTemplate() {
 
               <input
                 type="email"
+                name="email"
                 placeholder="Your Email"
                 className="bg-black/30 border border-white/10 rounded-2xl px-5 py-4 outline-none focus:border-purple-500"
               />
@@ -304,6 +310,7 @@ export default function PortfolioTemplate() {
 
             <textarea
               rows="6"
+              name="message"
               placeholder="Your Message"
               className="w-full bg-black/30 border border-white/10 rounded-2xl px-5 py-4 outline-none focus:border-purple-500 mb-6"
             ></textarea>
@@ -311,12 +318,24 @@ export default function PortfolioTemplate() {
             <button className="px-8 py-4 rounded-2xl bg-gradient-to-r from-red-400 to-pink-500 hover:scale-105 transition duration-300">
               Send Message
             </button>
-          </div>
+            <input type="hidden" name="_captcha" value="false" />
+          </form>
         </div>
       </section>
 
-      <footer className="border-t border-white/10 py-8 px-6 text-center text-gray-300">
-        <p>Built with React & Tailwind CSS 🚀</p>
+      <footer className="border-t border-white/10 py-10 px-6 text-center text-gray-300 bg-black/20">
+        <h2 className="text-2xl font-bold bg-gradient-to-r from-white to-pink-500 bg-clip-text text-transparent">
+          F-Memon Developer
+        </h2>
+
+        <p className="text-gray-400 mt-3 max-w-xl mx-auto">
+          Passionate web developer focused on building clean, modern, and responsive web
+          applications.
+        </p>
+
+        <p className="text-sm text-gray-300 mt-6">
+          © 2026 F-Memon Developer.Crafting modern and responsive web experiences.
+        </p>
       </footer>
     </div>
   );
