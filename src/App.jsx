@@ -9,8 +9,8 @@ export default function PortfolioTemplate() {
     <div className="bg-[#490019] text-white min-h-screen font-sans scroll-smooth">
       <nav className="fixed top-0 w-full backdrop-blur-md bg-black/30 border-b border-white/10 z-50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold bg-gradient-to-r from-white to-pink-500 bg-clip-text text-transparent">
-            F-Memon Developer
+          <h1 className="text-2xl font-bold bg-linear-to-r from-white to-pink-500 bg-clip-text text-transparent">
+            Developer Faiza
           </h1>
 
           <div className="hidden md:flex gap-8 text-sm">
@@ -105,8 +105,8 @@ export default function PortfolioTemplate() {
 
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight mb-6">
               Hi, I'm{' '}
-              <span className="bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
-                Memon
+              <span className="bg-linear-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
+                Faiza
               </span>
             </h1>
 
@@ -117,7 +117,7 @@ export default function PortfolioTemplate() {
 
             <div className="flex gap-4 flex-wrap mx-9">
               <a href="#projects">
-                <button className="px-6 py-3 rounded-2xl bg-gradient-to-r from-red-500 to-pink-500 hover:scale-105 transition duration-300">
+                <button className="px-6 py-3 rounded-2xl bg-linear-to-r from-red-500 to-pink-500 hover:scale-105 transition duration-300">
                   View Projects
                 </button>
               </a>
@@ -130,12 +130,12 @@ export default function PortfolioTemplate() {
 
           <div className="flex justify-center">
             <div className="relative py-8">
-              <div className="absolute inset-0 bg-gradient-to-r from-white to-pink-500 blur-2xl opacity-30 rounded-full"></div>
+              <div className="absolute inset-0 bg-linear-to-r from-white to-pink-500 blur-2xl opacity-30 rounded-full"></div>
 
               <img
                 src={fullstack}
                 alt="Developer"
-                className="relative w-[240px] sm:w-[300px] md:w-[320px] h-auto object-cover rounded-3xl border border-white/10"
+                className="relative w-240px sm:w-300px md:w-[320px] h-auto object-cover rounded-3xl border border-white/10"
               />
             </div>
           </div>
@@ -180,7 +180,7 @@ export default function PortfolioTemplate() {
         </div>
       </section>
 
-      <section id="skills" className="py-24 px-6 bg-white/[0.02]">
+      <section id="skills" className="py-24 px-6 bg-white/2">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-16">Skills</h2>
 
@@ -205,7 +205,7 @@ export default function PortfolioTemplate() {
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="group bg-white/5 border border-white/10 rounded-3xl overflow-hidden hover:translate-y-[-8px] transition duration-300"
+                className="group bg-white/5 border border-white/10 rounded-3xl overflow-hidden hover:translate-y-8px transition duration-300"
               >
                 <div className="overflow-hidden">
                   <img
@@ -227,7 +227,7 @@ export default function PortfolioTemplate() {
                       href={project.demo}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-full sm:w-auto px-4 py-2 rounded-xl bg-gradient-to-r from-red-500 to-pink-500 text-sm hover:scale-105 transition duration-300"
+                      className="w-full sm:w-auto px-4 py-2 rounded-xl bg-linear-to-r from-red-500 to-pink-500 text-sm hover:scale-105 transition duration-300"
                     >
                       Live Demo
                     </a>
@@ -248,7 +248,7 @@ export default function PortfolioTemplate() {
         </div>
       </section>
 
-      <section className="py-24 px-6 bg-white/[0.02]">
+      <section className="py-24 px-6 bg-white/2">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-16">My Journey</h2>
 
@@ -315,7 +315,7 @@ export default function PortfolioTemplate() {
               className="w-full bg-black/30 border border-white/10 rounded-2xl px-5 py-4 outline-none focus:border-purple-500 mb-6"
             ></textarea>
 
-            <button className="px-8 py-4 rounded-2xl bg-gradient-to-r from-red-400 to-pink-500 hover:scale-105 transition duration-300">
+            <button className="px-8 py-4 rounded-2xl bg-linear-to-r from-red-400 to-pink-500 hover:scale-105 transition duration-300">
               Send Message
             </button>
             <input type="hidden" name="_captcha" value="false" />
@@ -324,8 +324,8 @@ export default function PortfolioTemplate() {
       </section>
 
       <footer className="border-t border-white/10 py-10 px-6 text-center text-gray-300 bg-black/20">
-        <h2 className="text-2xl font-bold bg-gradient-to-r from-white to-pink-500 bg-clip-text text-transparent">
-          F-Memon Developer
+        <h2 className="text-2xl font-bold bg-linear-to-r from-white to-pink-500 bg-clip-text text-transparent">
+          Developer Faiza
         </h2>
 
         <p className="text-gray-400 mt-3 max-w-xl mx-auto">
@@ -334,7 +334,7 @@ export default function PortfolioTemplate() {
         </p>
 
         <p className="text-sm text-gray-300 mt-6">
-          © 2026 F-Memon Developer.Crafting modern and responsive web experiences.
+          © 2026 Developer Faiza Memon.Crafting modern and responsive web experiences.
         </p>
       </footer>
     </div>
