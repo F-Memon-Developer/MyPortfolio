@@ -30,6 +30,7 @@ import liveuserfilter from '../assets/liveuserfilter.png';
 import social from '../assets/social.png';
 import blog from '../assets/blog.png';
 import todo from '../assets/todo.png';
+import testp from '../assets/testp.png';
 
 export const skills = [
   'HTML',
@@ -274,7 +275,7 @@ export const projects = [
   {
     title: 'Blog App',
     tech: 'Next + React + Sass + Tailwind',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'A nicely styled blog app!',
     image: blog,
     demo: 'https://graphcms-blog-eight-delta.vercel.app',
     github: 'https://github.com/developer-faiza/graphcms_blog'
@@ -288,6 +289,14 @@ export const projects = [
     github: 'https://github.com/developer-faiza/SocialApp-react.js'
   },
   {
+    title: 'Test-Project',
+    tech: 'HTML + CSS',
+    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    image: testp,
+    demo: 'https://test-project-012.netlify.app',
+    github: 'https://github.com/developer-faiza/test-project'
+  },
+  {
     title: 'Restuarent',
     tech: 'HTML + CSS',
     desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
@@ -298,7 +307,7 @@ export const projects = [
   {
     title: 'To Do List',
     tech: 'HTML + CSS + JS',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'A working to do App',
     image: todo,
     demo: 'https://a-to-do-list-web.netlify.app',
     github: 'https://github.com/developer-faiza/to-do-list'
@@ -306,7 +315,7 @@ export const projects = [
   {
     title: 'Vertical Slider',
     tech: 'HTML + CSS + JS',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'Lorem ipsum dolor sit, amet consectetur.',
     image: verticalslider,
     demo: 'https://vertical-sliderr.netlify.app/',
     github: 'https://github.com/developer-faiza/vertical-slider'
