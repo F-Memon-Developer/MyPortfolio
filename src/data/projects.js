@@ -245,7 +245,7 @@ export const projects = [
     tech: 'HTML + CSS + JS',
     desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
     image: books,
-    demo: '',
+    demo: 'https://books-website11.netlify.app',
     github: 'https://github.com/developer-faiza/Books-Website'
   },
   {
