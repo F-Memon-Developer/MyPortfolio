@@ -131,7 +131,7 @@ export const projects = [
   {
     title: 'Facebook Clone',
     tech: 'HTML + CSS',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, maiores?.',
+    desc: 'A responsive Facebook clone featuring a modern social feed layout, sidebar navigation, and clean user interface inspired by the original platform.',
     image: fb,
     demo: 'https://faceb00k-clone.netlify.app/',
     github: 'https://github.com/developer-faiza/Facebook-clone'
@@ -147,7 +147,7 @@ export const projects = [
   {
     title: 'Manage Landing Page',
     tech: 'HTML + JS + Tailwind Css',
-    desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit..',
+    desc: 'A clean and modern landing page built with Tailwind CSS featuring responsive sections, smooth layouts, and interactive UI components.',
     image: manage,
     demo: 'https://managetailwind-landing-page.netlify.app',
     github: 'https://github.com/developer-faiza/tailwind'
@@ -155,7 +155,7 @@ export const projects = [
   {
     title: 'Corona Tracker App',
     tech: 'React.js + Chart.js',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde ipsum libero nostrum laudantium, corrupti inventore aperiam autem eaque ipsa!',
+    desc: 'A COVID-19 tracker app displaying real-time statistics, charts, and country-wise data with an interactive and responsive interface.',
     image: covid19,
     demo: 'https://corona-trackerapp-react.netlify.app',
     github: 'https://github.com/developer-faiza/Corona-Tracker-App'
@@ -171,7 +171,7 @@ export const projects = [
   {
     title: 'One Page Website',
     tech: 'HTML + CSS',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'A stylish one-page website with smooth scrolling sections, responsive design, and modern layouts for showcasing content beautifully.',
     image: onepage,
     demo: 'https://1onepage-website.netlify.app',
     github: 'https://github.com/developer-faiza/OnePage-website'
@@ -179,7 +179,7 @@ export const projects = [
   {
     title: 'The Foodies Website',
     tech: 'HTML + CSS + JS',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'A modern food website featuring attractive food sections, responsive layouts, and interactive UI elements for a better browsing experience.',
     image: foodies,
     demo: 'https://the-foodies-web.netlify.app',
     github: 'https://github.com/developer-faiza/The-Foodies-Website'
@@ -187,7 +187,7 @@ export const projects = [
   {
     title: 'Youtube Clone',
     tech: 'Rapid Api',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'A YouTube clone application integrated with Rapid API to display videos, search functionality, and a modern responsive video browsing UI.',
     image: youtube,
     demo: 'https://yt-clone-website.netlify.app',
     github: 'https://github.com/developer-faiza/Youtube-Clone'
@@ -195,7 +195,7 @@ export const projects = [
   {
     title: 'Red Store E-Commerce Website',
     tech: 'HTML + CSS',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'A responsive e-commerce website with product sections, banners, and a clean shopping interface inspired by modern online stores.',
     image: redstore,
     demo: 'https://redstore-ecommerce-website-design.netlify.app',
     github: 'https://github.com/developer-faiza/Red-store-Ecommerce-Website'
@@ -203,7 +203,7 @@ export const projects = [
   {
     title: 'Random Choices Picker',
     tech: 'JS',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'A fun JavaScript application that randomly selects choices with smooth animations and an interactive user experience.',
     image: random,
     demo: 'https://random-choices-js.netlify.app',
     github: 'https://github.com/developer-faiza/Random-Choices'
@@ -211,7 +211,7 @@ export const projects = [
   {
     title: 'Meals Application',
     tech: 'ReactJS + Typescript',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'A meals application built with React and TypeScript featuring recipe browsing, meal categories, and responsive modern UI design.',
     image: meals,
     demo: 'https://meals-application-vite.netlify.app',
     github: 'https://github.com/developer-faiza/Meals-Application'
@@ -219,7 +219,7 @@ export const projects = [
   {
     title: 'Quiz Application',
     tech: 'React.js',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'An interactive quiz application with multiple questions, score tracking, and a responsive user-friendly interface.',
     image: quiz,
     demo: 'https://quizz-app-react-js.netlify.app',
     github: 'https://github.com/developer-faiza/Quiz'
@@ -227,7 +227,7 @@ export const projects = [
   {
     title: 'Admin Dashboard',
     tech: 'React.js',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'A modern admin dashboard built with React.js featuring analytics cards, charts, and responsive management panels.',
     image: admindashboard,
     demo: 'https://admin-app-website.netlify.app',
     github: 'https://github.com/developer-faiza/Dashboard-'
@@ -235,7 +235,7 @@ export const projects = [
   {
     title: 'Team Member Allocation',
     tech: 'React + TypeScript',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'A team management application for allocating members efficiently with interactive UI and responsive layouts.',
     image: team,
     demo: 'https://team-member-allocation1.netlify.app',
     github: 'github.com/developer-faiza/Team-Member-Allocation'
@@ -243,7 +243,7 @@ export const projects = [
   {
     title: 'Books',
     tech: 'HTML + CSS + JS',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'A beautifully designed books website showcasing book collections, categories, and responsive layouts for readers.',
     image: books,
     demo: 'https://books-website11.netlify.app',
     github: 'https://github.com/developer-faiza/Books-Website'
@@ -259,7 +259,7 @@ export const projects = [
   {
     title: 'Live User Filter',
     tech: 'HTML + CSS + JS',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'A live user filter application that dynamically searches and filters users instantly with a clean responsive interface.',
     image: liveuserfilter,
     demo: 'https://live-user-filter-website.netlify.app',
     github: 'https://github.com/developer-faiza/live-user-filter'
@@ -267,7 +267,7 @@ export const projects = [
   {
     title: 'Css Grid',
     tech: 'HTML + CSS',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'A CSS Grid layout project demonstrating responsive grid designs and modern web layout techniques.',
     image: cssgrid,
     demo: 'https://css-gridd.netlify.app',
     github: 'https://github.com/developer-faiza/Css-Grid'
@@ -283,7 +283,7 @@ export const projects = [
   {
     title: 'Social Media App',
     tech: 'React.js',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'A social media application built with React.js featuring interactive posts, responsive layouts, and modern UI design.',
     image: social,
     demo: 'https://socialapp-react-js.netlify.app',
     github: 'https://github.com/developer-faiza/SocialApp-react.js'
@@ -291,7 +291,7 @@ export const projects = [
   {
     title: 'Test-Project',
     tech: 'HTML + CSS',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'A simple responsive web project designed with clean layouts and modern styling techniques.',
     image: testp,
     demo: 'https://test-project-012.netlify.app',
     github: 'https://github.com/developer-faiza/test-project'
@@ -299,7 +299,7 @@ export const projects = [
   {
     title: 'Restuarent',
     tech: 'HTML + CSS',
-    desc: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos reprehenderit animi sit hic illum harum! Labore ipsa enim amet!',
+    desc: 'A responsive restaurant website with elegant sections, menu displays, and a modern dining experience design.',
     image: restaurent,
     demo: 'https://restaurent-web1.netlify.app',
     github: 'https://github.com/developer-faiza/restaurant-'
@@ -315,7 +315,7 @@ export const projects = [
   {
     title: 'Vertical Slider',
     tech: 'HTML + CSS + JS',
-    desc: 'Lorem ipsum dolor sit, amet consectetur.',
+    desc: 'A smooth vertical slider project with animated transitions and responsive interactive user experience.',
     image: verticalslider,
     demo: 'https://vertical-sliderr.netlify.app/',
     github: 'https://github.com/developer-faiza/vertical-slider'
