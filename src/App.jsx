@@ -286,7 +286,7 @@ export default function PortfolioTemplate() {
           </p>
 
           <form
-            action="https://formsubmit.co/memon2572006f@gmail.com"
+            action="https://formsubmit.co/developerfaizamemon@gmail.com"
             method="POST"
             className="bg-white/5 border border-white/10 rounded-3xl p-10 backdrop-blur-md"
           >
