@@ -334,7 +334,7 @@ export default function PortfolioTemplate() {
         </p>
 
         <p className="text-sm text-gray-300 mt-6">
-          © 2026 Developer Faiza Memon.Crafting modern and responsive web experiences.
+          © 2026 Developer Faiza Memon.Crafting modern and responsive web experiences!
         </p>
       </footer>
     </div>
